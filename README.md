@@ -30,3 +30,7 @@ BenchmarkOrderXMLUnmarshal-4               18980             63592 ns/op        
 PASS
 ok      github.com/yashrsharma44/jsonvsprotobuf 8.244s
 ```
+
+## Some Production level benchmarked data
+Refer for more details - https://github.com/brunokrebs/auth0-speed-test
+
