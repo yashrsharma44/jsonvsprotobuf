@@ -48,26 +48,6 @@ var order = AddressBook{People: []*Person{
 	},
 }}
 
-// var order1 = &Order{
-// 	ID:        "101",
-// 	Status:    "Created",
-// 	OrderItems: []*OrderItem{
-// 		&OrderItem{
-// 			Code:      "knd100",
-// 			Name:      "Kindle Voyage",
-// 			UnitPrice: 220,
-// 			Quantity:  1,
-// 		},
-// 		&OrderItem{
-
-// 			Code:      "kc101",
-// 			Name:      "Kindle Voyage SmartShell Case",
-// 			UnitPrice: 10,
-// 			Quantity:  2,
-// 		},
-// 	},
-// }
-
 // Benchmark Proto3 Marshal
 func BenchmarkOrderProto3Marshal(b *testing.B) {
 	for i := 0; i < b.N; i++ {

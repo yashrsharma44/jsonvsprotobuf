@@ -30,3 +30,4 @@ message AddressBook {
   repeated Person people = 1;
 }
 // [END messages]
+// Taken from https://github.com/protocolbuffers/protobuf/blob/master/examples/addressbook.proto
